@@ -1,16 +1,4 @@
-# task
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+i use sqflite package to store the account 
+and i use shared_preferences store if the user has logged in and to store the user email so i can get the rest of the user data from the sqflit
+and i use dio to get the apis and i cached_network_image to cache images  and sembast to store the api in the local database and pull_to_refresh for pagination
+and url_launcher to open the image url
